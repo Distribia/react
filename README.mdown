@@ -1,0 +1,18 @@
+####1，下载方法
+1）复制我的项目地址`git@github.com:Distribia/react.git`，然后在你的项目根目录打开你的cmd，在命令行中输入`git clone git@github.com:Distribia/react.git`，等待几分钟后会自动把项目文件下载下来，文件名叫‘react’；
+
+2）然后将‘react’文件里的所有文件剪切到你的项目的根文件下，然后删掉‘react’文件夹；
+
+3)将命令行定位到你项目的根目录，输入`npm install`，然后程序将自动下载项目所依赖的插件，等待下载完毕后就能使用了。
+
+####2，项目介绍
+1）本模板为 **react+webpack+ES6** 的结合项目；
+
+2）已结完成基本的weback的配置，能实现对ES6的自动编译，文件监听及实时自动刷新；
+
+####3，使用方法（默认cmd定位到项目根目录）
+1）在cmd里输入webpack进行打包转译，完成后会在/build文件夹下面生成index.build.js文件；
+
+2）在命令行里输入`npm run dev`，启动成功后在浏览器里输入`localhost:8888`，当你看到"Hello React!"后代表项目配置成功；
+
+3）现在可以愉快的在/app文件夹下的index.js文件里编写你的JSX和ES6语言了！
